@@ -1,0 +1,23 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["airbnb-base", "eslint:recommended"],
+	"overrides": [],
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"rules": {
+		"class-methods-use-this": "off",
+		"no-undef": "off",
+		"no-shadow": "off",
+		"linebreak-style": "off",
+		"import/no-extraneous-dependencies": "off",
+		"global-require": "off",
+		"arrow-body-style": "off",
+		"max-len": "off",
+		"no-else-return": "off"
+	}
+}
